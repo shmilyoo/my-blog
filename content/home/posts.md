@@ -7,16 +7,25 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 10
 
-title: Recent Posts
+# title: 最新文章
 subtitle:
 
 content:
+  # filter_default: 0
+  # filter_button:
+  #   - name: All
+  #     category: "*"
+  #   - name: example
+  #     category: example2
+  #   - name: Other
+  #     category: example3
+
   # Page type to display. E.g. post, talk, publication...
   page_type: post
   # Choose how many pages you would like to display (0 = all pages)
-  count: 5
+  count: 20
   # Filter on criteria
   filters:
     author: ""
@@ -32,6 +41,8 @@ content:
   order: desc
 
 design:
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: "2"
   # Choose a view for the listings:
   #   1 = List
   #   2 = Compact
