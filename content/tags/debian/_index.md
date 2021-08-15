@@ -1,5 +1,5 @@
 ---
-title: "debian1"
+title: "debian"
 ---
 
 bbbbbbbbb

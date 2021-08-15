@@ -29,7 +29,7 @@ content:
   # Filter on criteria
   filters:
     author: ""
-    category: ""
+    category: "" # 这里不支持中文
     tag: ""
     exclude_featured: false
     exclude_future: false

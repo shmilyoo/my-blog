@@ -21,13 +21,16 @@ content:
   # To show all items, set `tag` to "*".
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove toolbar, delete/comment all instances of `filter_button` below.
+  # 组件不支持 category 分类
   filter_button:
     - name: All
-      category: "*"
-    - name: example
-      category: example2
-    - name: Other
-      category: example3
+      tag: "*"
+    - name: nas
+      tag: nas
+    - name: debian
+      tag: debian
+    - name: 开发
+      tag: 开发
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: "2"
